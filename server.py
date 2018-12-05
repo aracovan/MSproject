@@ -12,10 +12,10 @@ import tweepy
 import os
 
 def Main():
-    consumer_key = 'bKzKjcVOM1efonq6vdCXgd4tw'
-    consumer_secret = '3dkuKSB29JJSofBX1xCS6PwddctkyZvDKiRFY6DnAEA28eWHG6'
-    access_token_key = '998920555519791104-FvJtGPJPv6dBe8akRMpjgz6dbm4BCGG'
-    access_token_secret = 'wKgvuuCcG2vTz3XZyWSVxOr45PuTzGOsU9AuiH6gOTa1Z'
+    consumer_key = 'xxxx'
+    consumer_secret = 'xxxx'
+    access_token_key = 'xxxx'
+    access_token_secret = 'xxxx'
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token_key, access_token_secret)
     HOST= socket.gethostbyname( '0.0.0.0' )
